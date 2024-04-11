@@ -6,19 +6,14 @@ body {
 }
 
 .container {
-
+ 
 }
 
 .logo svg {
-    color: var(--left-sidebar-text-color);
-    fill: currentColor;
-    opacity: 0.7;
-    margin-bottom: 30px;
+    width: 90px;
+    height: auto;
+    padding: 20px 20px 20px 20px;
   }
-
-.logo img {
-    display: block;
-}
 
 h1 {
     text-align: left;
