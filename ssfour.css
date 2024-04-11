@@ -1,19 +1,27 @@
+:root{
+  --main-font-family: "Nunito Sans", sans-serif;
+  --headers-font-family: "Montserrat", sans-serif;
+}
 footer {
     text-align: center;
     padding: 3px;
     background-color: rgb(255, 54, 178);
     color: white;
+    font-family: Arial, sans-serif;
   }
   .container-header{
     align-items: center;
+    font-family: Arial, sans-serif;
   }
   .container{
     margin: center;
     padding: 20px 20px 20px 20px;
     text-align: center;
+    font-family: Arial, sans-serif;
   }
   .h1{
     text-align: center;
+    font-family: Arial, sans-serif;
   }
   .logo svg{
     width: 90px;
@@ -22,6 +30,7 @@ footer {
   }
   .container{
     padding: 20px;
+    font-family: Arial, sans-serif;
 }
 .services-list{
     display: flex;
@@ -29,6 +38,7 @@ footer {
     grid-gap: 150px;
     margin-top: 50px;
     justify-content: start;
+    font-family: Arial, sans-serif;
 }
 .navlist{
     display: flex;
@@ -36,18 +46,22 @@ footer {
     grid-gap: 10px;
     justify-content: start;
     list-style: none;
+    font-family: Arial, sans-serif;
     padding: 0;
 }
 .navlist li{
     margin-right: 10px;
+    font-family: Arial, sans-serif;
 }
 .container-down{
     margin: center;
     padding: 20px 20px 20px 20px;
+    font-family: Arial, sans-serif;
     text-align: left;
   }
   .top-right{
-    margin-left: 465px;
+    margin-left: 30%;
+    font-family: Arial, sans-serif;
   }
   .uploadd{
     display: inline-block;
@@ -56,17 +70,21 @@ footer {
     background-color: rgb(255, 54, 178);
     text-decoration: none;
     color: white !important;
+    font-family: Arial, sans-serif;
     padding: 5px 20px;
     border-radius: 5px;
     border: none;
   }
   .uploadd:hover{
     background-color: rgb(243, 91, 185);
+    font-family: Arial, sans-serif;
   }
   .down{
     display: flex;
     list-style-type: none;
+    font-family: Arial, sans-serif;
   }
   .downright{
-    margin-left: 950px;
+    margin-left: 60%;
+    font-family: Arial, sans-serif;
   }
