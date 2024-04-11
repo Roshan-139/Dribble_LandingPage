@@ -8,29 +8,32 @@ body {
 
 }
 
-.logo {
-    margin: 20px 20px 20px 20px;
-}
+.logo svg {
+    color: var(--left-sidebar-text-color);
+    fill: currentColor;
+    opacity: 0.7;
+    margin-bottom: 30px;
+  }
 
 .logo img {
-    display: block; /* Ensures the logo image takes up the full width */
+    display: block;
 }
 
 h1 {
     text-align: left;
-    margin-left:400px;
+    margin-left:30%;
     margin-top: 80px;
 }
 
 .instruction {
     text-align: left;
-    margin-left: 400px;
+    margin-left: 30%;
 }
 
 .avatar-container {
     text-align: left;
     margin-top: 20px;
-    margin-left:400px;
+    margin-left:30%;
 }
 
 .avatar-text {
@@ -52,7 +55,7 @@ h1 {
 
 input[type="text"] {
     width: 400px;
-    margin-left: 400px;
+    margin-left: 30%;
     padding: 10px;
     margin-top: 10px;
 }
@@ -70,13 +73,13 @@ input[type="text"] {
     border: none;
     padding: 10px;
     cursor: pointer;
-    margin-left: 400px;
+    margin-left: 30%;
     border-radius: 6px;
 }
 
 p.addLocation{
 
-    margin-left: 400px;
+    margin-left: 30%;
     font-size: 15px;
     font-weight: bold;
 }
@@ -93,6 +96,6 @@ p.addLocation{
 
 #belowText{
     font-size: 12px;
-    margin-left: 420px;
+    margin-left: 32%;
     color: grey;
 }
