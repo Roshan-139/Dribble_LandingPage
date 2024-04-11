@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+}
+
+.logo {
+    margin: 20px 20px 20px 20px;
+}
+
+.logo img {
+    display: block; /* Ensures the logo image takes up the full width */
+}
+
+h1 {
+    text-align: left;
+    margin-left:400px;
+    margin-top: 80px;
+}
+
+.instruction {
+    text-align: left;
+    margin-left: 400px;
+}
+
+.avatar-container {
+    text-align: left;
+    margin-top: 20px;
+    margin-left:400px;
+}
+
+.avatar-text {
+    font-weight: bold;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    width: 100px;
+    height: 100px;
+    background: url('placeholder.jpg') center/cover no-repeat;
+    display: inline-block;
+}
+
+.location {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 400px;
+    margin-left: 400px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.line {
+    border-top: 1px solid #ccc;
+    margin: 20px 400px 20px 400px;
+}
+
+.button {
+    display: block;
+    width: 150px;
+    background-color: rgb(255, 54, 178);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 400px;
+    border-radius: 6px;
+}
+
+p.addLocation{
+
+    margin-left: 400px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#avatar-upload{
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.avatar-location-container {
+    display: flex;
+    align-items: left;
+}
+
+#belowText{
+    font-size: 12px;
+    margin-left: 420px;
+    color: grey;
+}

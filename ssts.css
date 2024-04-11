@@ -1,0 +1,130 @@
+#services{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1,4;
+    margin-bottom: 4rem;
+}
+.sub-title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: -60px;
+}
+.sub-sub-title{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 70px;
+    color: silver;
+}
+.sub-title span{
+    color: rgb(255, 54, 178);
+}
+.logo svg {
+    width: 90px;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+  }
+.container{
+    padding: 90px;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.img1{
+    width: 100%;
+    height: auto; 
+    display: block;
+}
+.image-container{
+    max-width: 500px;
+    height: auto; 
+    margin: 0 auto; 
+    overflow: hidden;
+    transition: none;
+    box-shadow: 1px 1px 20px white,
+                1px 1px 40px white
+}
+.services-list div{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 10px rgb(255, 54, 178)
+}
+.services-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.services-list div a{
+    text-decoration: none;
+    color: #000000;
+    font: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.read{
+    display: inline-block;
+    padding: 12px 28px;
+    background: rgb(255, 54, 178);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px rgb(255, 54, 178),
+    0 0 25px rgb(255, 54, 178);
+}
+.read:hover{
+    box-shadow: 0 0 5px rgb(255, 54, 178),
+    0 0 25px rgb(255, 54, 178), 0 0 50px rgb(255, 54, 178),
+    0 0 100px rgb(255, 54, 178), 0 0 200px rgb(255, 54, 178);
+}
+.services-list div:hover{
+    transform: translateY(-10px);
+}
+.checkmark{
+    align-items: center;
+}
+.button{
+    display: inline-block;
+  width: 50;
+  text-align: center;
+  background-color: rgb(255, 54, 178);
+  text-decoration: none;
+  color: white !important;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-left: 47%;
+  border: none;
+}
+.button:hover {
+    background-color: rgb(243, 91, 185);
+  }
+.h6{
+    margin-left: 50%;
+    text-align: center;
+}
+
+h5{
+    margin-left: 600px;
+    color: grey;
+}
+#belowText{
+    margin-left: 650px;
+    color: grey;
+}
