@@ -1,3 +1,7 @@
+:root{
+    --main-font-family: "Nunito Sans", sans-serif;
+    --headers-font-family: "Montserrat", sans-serif;
+}
 #services{
     color: aliceblue;
     font-size: 20px;
@@ -118,11 +122,15 @@
 .h6{
     margin-left: 50%;
     text-align: center;
+    display: inline-block;
+    text-align: center;
 }
 
 h5{
     margin-left: 41%;
+    display: inline-block;
     color: grey;
+    text-align: center;
 }
 #belowText{
     margin-left: 45%;
